@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
-	"github.com/localskills/terraform-provider-localskills/internal/provider"
+	"github.com/localskills-sh/terraform-provider/internal/provider"
 )
 
 var version = "dev"

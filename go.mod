@@ -1,4 +1,4 @@
-module github.com/localskills/terraform-provider-localskills
+module github.com/localskills-sh/terraform-provider
 
 go 1.24.0
 

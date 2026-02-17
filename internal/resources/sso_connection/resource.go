@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/stringplanmodifier"
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/localskills/terraform-provider-localskills/internal/client"
+	"github.com/localskills-sh/terraform-provider/internal/client"
 
 	frameworkvalidator "github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"
 )

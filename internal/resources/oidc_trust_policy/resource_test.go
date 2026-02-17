@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 	"github.com/hashicorp/terraform-plugin-testing/terraform"
-	"github.com/localskills/terraform-provider-localskills/internal/testutils"
+	"github.com/localskills-sh/terraform-provider/internal/testutils"
 )
 
 func TestAccOidcTrustPolicy_basic(t *testing.T) {

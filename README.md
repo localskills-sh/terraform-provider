@@ -1,7 +1,7 @@
 # Terraform Provider for Localskills
 
 [![Terraform Registry](https://img.shields.io/badge/terraform-registry-blueviolet)](https://registry.terraform.io/providers/localskills/localskills/latest)
-[![Go Report Card](https://goreportcard.com/badge/github.com/localskills/terraform-provider-localskills)](https://goreportcard.com/report/github.com/localskills/terraform-provider-localskills)
+[![Go Report Card](https://goreportcard.com/badge/github.com/localskills-sh/terraform-provider)](https://goreportcard.com/report/github.com/localskills-sh/terraform-provider)
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 The Localskills Terraform provider manages resources on [localskills.sh](https://localskills.sh), a multi-tenant skill sharing platform. It enables teams to define skills and rules, publish versioned content, manage team membership, configure authentication tokens, set up OIDC trust policies for CI/CD pipelines, and manage enterprise SAML SSO and SCIM integrations -- all as Terraform-managed infrastructure.

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
-	"github.com/localskills/terraform-provider-localskills/internal/testutils"
+	"github.com/localskills-sh/terraform-provider/internal/testutils"
 )
 
 func TestAccSsoConnection_basic(t *testing.T) {
