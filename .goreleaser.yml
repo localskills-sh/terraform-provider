@@ -1,5 +1,7 @@
 version: 2
 
+project_name: terraform-provider-localskills
+
 before:
   hooks:
     - go mod tidy
@@ -40,9 +42,10 @@ signs:
       - "${signature}"
       - "--detach-sign"
       - "${artifact}"
+    stdin: "{{ .Env.GPG_PASSPHRASE }}"
 
 release:
-  draft: true
+  draft: false
 
 changelog:
   sort: asc

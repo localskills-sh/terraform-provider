@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/localskills-sh/terraform-provider/internal/client"
+	"github.com/localskills-sh/terraform-provider-localskills/internal/client"
 )
 
 var _ datasource.DataSource = &userAuditLogDataSource{}

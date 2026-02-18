@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
-	"github.com/localskills-sh/terraform-provider/internal/testutils"
+	"github.com/localskills-sh/terraform-provider-localskills/internal/testutils"
 )
 
 func TestAccTeamsDataSource_basic(t *testing.T) {

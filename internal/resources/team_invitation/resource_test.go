@@ -6,7 +6,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 	"github.com/hashicorp/terraform-plugin-testing/terraform"
-	"github.com/localskills-sh/terraform-provider/internal/testutils"
+	"github.com/localskills-sh/terraform-provider-localskills/internal/testutils"
 )
 
 func TestAccTeamInvitationResource_basic(t *testing.T) {
